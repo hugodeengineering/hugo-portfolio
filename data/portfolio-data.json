@@ -1,0 +1,187 @@
+{
+  "personal": {
+    "name": "Hugo de Mendoza",
+    "title": "Mechanical Engineer",
+    "tagline": "Building robotic systems at the intersection of hardware and software",
+    "email": "hugo.demendoza.eng@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/hugo-de-mendoza",
+    "github": "https://github.com/hugodeengineering",
+    "location": "San Diego, CA",
+    "bio": "I'm a mechanical engineer specializing in robotics, embedded systems, and controls. Currently pursuing a Master's in Mechanical Engineering and Robotics at UC San Diego, I combine hands-on hardware design with advanced software development to create intelligent systems. My work spans from designing heat exchangers and medical devices to building gesture-controlled vehicles and self-balancing robots. I'm passionate about bridging the gap between mechanical design and computational intelligence.",
+    "avatar": "/images/avatar.jpg"
+  },
+  "education": {
+    "school": "University of California San Diego",
+    "degree": "Bachelor's in Mechanical Engineering and Robotics, Master's in Mechanical Engineering",
+    "graduation": "Expected June 2026 for BS, Expected June 2027 for MS",
+    "gpa": "3.75",
+    "coursework": [
+      "Robotic Planning and Estimation",
+      "Intro to Autonomous Vehicles",
+      "Embedded Controls and Robotics",
+      "Signals and Systems and Linear Control",
+      "Computational Methods for Design",
+      "Computer Vision",
+      "Machine Learning"
+    ],
+    "activities": [
+      "SHPE (Society of Hispanic Professional Engineers)",
+      "Triton Neurotech",
+      "Engineering World Health",
+      "Tutor: Intro to Mechanical Design, Statics and Dynamics"
+    ]
+  },
+  "experience": [
+    {
+      "id": "swirlx",
+      "company": "SwirlX",
+      "role": "Software Engineering Intern/Lead",
+      "location": "San Diego, CA",
+      "period": "June 2025 – September 2025",
+      "description": "Led R&D initiatives for heat exchanger systems and developed automation tooling",
+      "achievements": [
+        "Led R&D by designing heat exchanger systems, validated via CFD (ANSYS) and tests, achieving 40% pressure drop improvement",
+        "Engineered JavaScript automation tooling, cutting 5 hours/week of manual labor",
+        "Created the company website using HTML and CSS to improve engagement and brand presence"
+      ],
+      "technologies": ["ANSYS", "CFD", "JavaScript", "HTML", "CSS", "SolidWorks"]
+    },
+    {
+      "id": "alcon",
+      "company": "Alcon",
+      "role": "Mechanical R&D Intern",
+      "location": "Fort Worth, TX",
+      "period": "June 2024 – September 2024",
+      "description": "Executed rigorous testing protocols on medical devices and analyzed failure modes",
+      "achievements": [
+        "Executed rigorous testing protocols on medical devices, improving reliability across product lines",
+        "Analyzed failure modes with Creo CAD to resolve shipment integrity issues",
+        "Investigated 200+ devices using video and data models to find root causes of complaints"
+      ],
+      "technologies": ["Creo Parametric", "CAD", "Testing Protocols", "Data Analysis"]
+    },
+    {
+      "id": "biosensor",
+      "company": "UC San Diego - Wearable Biosensor Research",
+      "role": "Undergraduate Lab Researcher",
+      "location": "UC San Diego",
+      "period": "September 2024 – Present",
+      "description": "Developing publication in biomarker sensing with focus on FEA and microfluidics",
+      "achievements": [
+        "Developing a publication in biomarker sensing",
+        "Performed FEA in Ansys on flexible biosensor substrates, halving simulation times",
+        "Modeled microfluid channels in COMSOL to optimize sweat extraction"
+      ],
+      "technologies": ["ANSYS", "COMSOL", "FEA", "Microfluidics", "Biosensors"]
+    },
+    {
+      "id": "birdl",
+      "company": "UC San Diego - Bioinspired Robotics & Design Lab",
+      "role": "Undergraduate Lab Researcher",
+      "location": "UC San Diego",
+      "period": "February 2025 – Present",
+      "description": "Designing and fabricating soft actuators and sensors for robotic systems",
+      "achievements": [
+        "Designed and fabricated soft actuators and sensors",
+        "Aided embedded control integration for soft robotic systems"
+      ],
+      "technologies": ["Soft Robotics", "Embedded Systems", "Arduino", "3D Printing"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "steeair",
+      "title": "SteeAir - Gesture-Controlled RC Car",
+      "period": "January 2025 – March 2025",
+      "description": "Built a real-time gesture recognition system using OpenCV on Jetson Nano to enable controller-free steering of an autonomous RC car with LiDAR-based obstacle detection.",
+      "image": "/images/projects/steeair.jpg",
+      "technologies": ["OpenCV", "Jetson Nano", "ROS2", "LiDAR", "Python"],
+      "github": "https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-13",
+      "highlights": [
+        "Built real-time gesture recognition using OpenCV on Jetson Nano to enable controller-free steering",
+        "Connected perception and actuation via ROS2 nodes for integrated control",
+        "Implemented LiDAR obstacle detection with override logic to prevent collisions"
+      ]
+    },
+    {
+      "id": "self-balancing-bike",
+      "title": "Self-Balancing Bike",
+      "period": "October 2025 – Present",
+      "description": "Developed a self-balancing bicycle using reaction wheel architecture, IMU sensor fusion, and PID control. Future plans include depth perception and ML/RL-based control.",
+      "image": "/images/projects/bike.jpg",
+      "technologies": ["Arduino", "IMU", "PID Control", "3D Printing", "Jetson Nano", "OAK-D", "Machine Learning"],
+      "highlights": [
+        "Assembled mechanical + embedded system: 3D-printed frame, reaction wheel, DC motors, IMU, and controller",
+        "Implemented IMU fusion & real-time PID for roll stability, measuring latency and torque response",
+        "Future: Add depth perception via OAK-D + Jetson, and ML/RL-based control for improved navigation and recovery"
+      ]
+    },
+    {
+      "id": "heat-exchanger",
+      "title": "Heat Exchanger System Design",
+      "period": "June 2025 – September 2025",
+      "description": "Led R&D for heat exchanger systems at SwirlX, using CFD simulations and physical testing to achieve significant performance improvements.",
+      "image": "/images/projects/heat-exchanger.jpg",
+      "technologies": ["ANSYS", "CFD", "SolidWorks", "Thermal Analysis"],
+      "highlights": [
+        "Designed heat exchanger systems validated via CFD (ANSYS) and physical tests",
+        "Achieved 40% pressure drop improvement through iterative design optimization",
+        "Conducted thermal and fluid dynamics analysis for performance validation"
+      ]
+    },
+    {
+      "id": "medical-device-testing",
+      "title": "Medical Device Reliability Testing",
+      "period": "June 2024 – September 2024",
+      "description": "Executed comprehensive testing protocols on medical devices at Alcon, analyzing failure modes and improving product reliability.",
+      "image": "/images/projects/medical-device.jpg",
+      "technologies": ["Creo Parametric", "Testing Protocols", "Data Analysis", "CAD"],
+      "highlights": [
+        "Executed rigorous testing protocols on medical devices, improving reliability across product lines",
+        "Analyzed failure modes with Creo CAD to resolve shipment integrity issues",
+        "Investigated 200+ devices using video and data models to find root causes"
+      ]
+    },
+    {
+      "id": "biosensor-research",
+      "title": "Flexible Biosensor Development",
+      "period": "September 2024 – Present",
+      "description": "Developing wearable biosensors for biomarker detection using FEA and microfluidic modeling to optimize sweat extraction and sensor performance.",
+      "image": "/images/projects/biosensor.jpg",
+      "technologies": ["ANSYS", "COMSOL", "FEA", "Microfluidics"],
+      "highlights": [
+        "Developing a publication in biomarker sensing",
+        "Performed FEA in Ansys on flexible biosensor substrates, halving simulation times",
+        "Modeled microfluid channels in COMSOL to optimize sweat extraction"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "SolidWorks (CSWP)",
+      "Creo Parametric",
+      "Fusion 360",
+      "AutoCAD",
+      "Ansys",
+      "FEA",
+      "CFD",
+      "3D Printing",
+      "Rapid Prototyping"
+    ],
+    "software": ["Python", "C++", "MATLAB", "ROS2", "OpenCV", "GitHub", "Excel"],
+    "robotics": [
+      "IMU",
+      "Depth Perception (OAK-D)",
+      "Embedded Systems",
+      "Arduino"
+    ],
+    "domains": [
+      "Mechanical Design",
+      "Robotics",
+      "Autonomous Vehicles",
+      "Embedded Controls",
+      "Project Management",
+      "Project Leadership"
+    ]
+  }
+}
