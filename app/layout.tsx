@@ -10,13 +10,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Hugo de Mendoza - Mechanical Engineer & Computer Scientist",
+  title: "Hugo de Mendoza - Mechanical Engineer",
   description:
-    "Portfolio of Hugo de Mendoza - Mechanical Engineer and Computer Scientist specializing in robotics, embedded systems, and autonomous vehicles.",
+    "Portfolio of Hugo de Mendoza - Mechanical Engineer specializing in robotics, embedded systems, and autonomous vehicles.",
   keywords: [
     "Hugo de Mendoza",
     "Mechanical Engineer",
-    "Computer Scientist",
     "Robotics",
     "UC San Diego",
     "Embedded Systems",
