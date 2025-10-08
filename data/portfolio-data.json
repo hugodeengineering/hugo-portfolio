@@ -40,11 +40,11 @@
       "period": "June 2025 – September 2025",
       "description": "Led R&D initiatives for heat exchanger systems and developed automation tooling",
       "achievements": [
-        "Led R&D by designing heat exchanger systems, validated via CFD (ANSYS) and tests, achieving 40% pressure drop improvement",
+        "Led R&D by designing heat exchanger systems, validated via CFD (ANSYS) and tests, achieving 40% pressure drop improvement.",
         "Engineered JavaScript automation tooling, cutting 5 hours/week of manual labor",
         "Created the company website using HTML and CSS to improve engagement and brand presence"
       ],
-      "technologies": ["ANSYS", "CFD", "JavaScript", "HTML", "CSS", "SolidWorks"]
+      "technologies": ["ANSYS", "CFD", "JavaScript", "HTML", "CSS", "nTop"]
     },
     {
       "id": "alcon",
@@ -55,7 +55,7 @@
       "description": "Executed rigorous testing protocols on medical devices and analyzed failure modes",
       "achievements": [
         "Executed rigorous testing protocols on medical devices, improving reliability across product lines",
-        "Analyzed failure modes with Creo CAD to resolve shipment integrity issues",
+        "Analyzed failure modes using Six Sigma with Creo CAD to resolve shipment integrity issues.",
         "Investigated 200+ devices using video and data models to find root causes of complaints"
       ],
       "technologies": ["Creo Parametric", "CAD", "Testing Protocols", "Data Analysis"]
@@ -68,9 +68,9 @@
       "period": "September 2024 – Present",
       "description": "Developing publication in biomarker sensing with focus on FEA and microfluidics",
       "achievements": [
-        "Developing a publication in biomarker sensing",
-        "Performed FEA in Ansys on flexible biosensor substrates, halving simulation times",
-        "Modeled microfluid channels in COMSOL to optimize sweat extraction"
+        "Developing 1 publication in biomarker sensing",
+        "Performed FEA in Ansys on flexible biosensor substrates, validating experimental results and accelerating the design process by 3 months.",
+        "Modeled microfluid channels in COMSOL to optimize sweat extraction by at least 50%"
       ],
       "technologies": ["ANSYS", "COMSOL", "FEA", "Microfluidics", "Biosensors"]
     },
@@ -82,8 +82,8 @@
       "period": "February 2025 – Present",
       "description": "Designing and fabricating soft actuators and sensors for robotic systems",
       "achievements": [
-        "Designed and fabricated soft actuators and sensors",
-        "Aided embedded control integration for soft robotic systems"
+        "Designed and fabricated soft sensors; tested and controlled resistance under deformation",
+        "Calibrated and debugged 3D printers for consistent TPU printing with complex shapes"
       ],
       "technologies": ["Soft Robotics", "Embedded Systems", "Arduino", "3D Printing"]
     }
@@ -98,9 +98,9 @@
       "technologies": ["OpenCV", "Jetson Nano", "ROS2", "LiDAR", "Python"],
       "github": "https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-13",
       "highlights": [
-        "Built real-time gesture recognition using OpenCV on Jetson Nano to enable controller-free steering",
+        "Built real-time gesture recognition mapping 5 inputs using OpenCV on Jetson Nano to enable controller-free steering",
         "Connected perception and actuation via ROS2 nodes for integrated control",
-        "Implemented LiDAR obstacle detection with override logic to prevent collisions"
+        "Implemented 3D LiDAR obstacle detection with override logic to prevent collisions within 1 foot of the vehicle"
       ]
     },
     {
@@ -130,31 +130,17 @@
       ]
     },
     {
-      "id": "medical-device-testing",
-      "title": "Medical Device Reliability Testing",
-      "period": "June 2024 – September 2024",
-      "description": "Executed comprehensive testing protocols on medical devices at Alcon, analyzing failure modes and improving product reliability.",
-      "image": "/images/projects/medical-device.jpg",
-      "technologies": ["Creo Parametric", "Testing Protocols", "Data Analysis", "CAD"],
+      "id": "build-a-robot",
+      "title": "Build a Robot",
+      "period": "April 2023 – July 2023",
+      "description": "Group Project for UCSD MAE 3 Robot Competition",
+      "image": "/images/projects/build-a-robot.jpg",
+      "technologies": ["Fusion 360", "Design & Fabrication", "Data Analysis"],
       "highlights": [
-        "Executed rigorous testing protocols on medical devices, improving reliability across product lines",
-        "Analyzed failure modes with Creo CAD to resolve shipment integrity issues",
-        "Investigated 200+ devices using video and data models to find root causes"
-      ]
-    },
-    {
-      "id": "biosensor-research",
-      "title": "Flexible Biosensor Development",
-      "period": "September 2024 – Present",
-      "description": "Developing wearable biosensors for biomarker detection using FEA and microfluidic modeling to optimize sweat extraction and sensor performance.",
-      "image": "/images/projects/biosensor.jpg",
-      "technologies": ["ANSYS", "COMSOL", "FEA", "Microfluidics"],
-      "highlights": [
-        "Developing a publication in biomarker sensing",
-        "Performed FEA in Ansys on flexible biosensor substrates, halving simulation times",
-        "Modeled microfluid channels in COMSOL to optimize sweat extraction"
+        "Designed and manufactured a robot using aluminum, acrylic, and 3 RC motors, consisting of three components: a drivetrain, a lift mechanism, and a claw."
       ]
     }
+    
   ],
   "skills": {
     "technical": [
