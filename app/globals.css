@@ -110,3 +110,12 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(var(--color-primary));
 }
+
+/* Hide scrollbar on filter bar (mobile horizontal scroll) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
