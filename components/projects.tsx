@@ -16,7 +16,6 @@ const FILTERS = [
   "Robotics & Autonomy",
   "Thermal & Fluids",
   "Research & Biosensors",
-  "Embedded Systems",
 ] as const
 
 type Filter = (typeof FILTERS)[number]
@@ -25,7 +24,6 @@ const CATEGORY_COLORS: Record<string, string> = {
   "Robotics & Autonomy": "bg-blue-500/10 text-blue-400 border-blue-500/20",
   "Thermal & Fluids": "bg-orange-500/10 text-orange-400 border-orange-500/20",
   "Research & Biosensors": "bg-green-500/10 text-green-400 border-green-500/20",
-  "Embedded Systems": "bg-purple-500/10 text-purple-400 border-purple-500/20",
 }
 
 function FadeInCard({ children, delay = 0 }: { children: ReactNode; delay?: number }) {
