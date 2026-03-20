@@ -79,7 +79,7 @@ export function Contact() {
         </div>
 
         <footer className="mt-24 text-center text-sm text-muted-foreground">
-          <p>© 2025 Hugo de Mendoza. Built with Next.js and Tailwind CSS.</p>
+          <p>© 2025–present Hugo de Mendoza. Built with Next.js and Tailwind CSS.</p>
         </footer>
       </div>
     </section>

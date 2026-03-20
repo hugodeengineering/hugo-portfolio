@@ -91,8 +91,11 @@
   "projects": [
     {
       "id": "steeair",
-      "title": "SteeAir - Gesture-Controlled RC Car",
+      "title": "Real-Time Gesture Navigation System with LiDAR Obstacle Avoidance",
       "period": "January 2025 – March 2025",
+      "outcomeSummary": "Achieved controller-free vehicle steering by mapping 5 hand gestures to driving commands via real-time OpenCV inference on a Jetson Nano. Integrated a ROS2 node architecture with 3D LiDAR safety override to prevent collisions within 1 foot of the vehicle.",
+      "myRole": "Team Lead – Perception & ROS2 Integration",
+      "category": "Robotics & Autonomy",
       "description": "Built a real-time gesture recognition system using OpenCV on Jetson Nano to enable controller-free steering of an autonomous RC car with LiDAR-based obstacle detection.",
       "image": "/images/projects/steeair.jpg",
       "technologies": ["OpenCV", "Jetson Nano", "ROS2", "LiDAR", "Python"],
@@ -104,25 +107,16 @@
       ]
     },
     {
-      "id": "self-balancing-bike",
-      "title": "Self-Balancing Bike",
-      "period": "October 2025 – Present",
-      "description": "Developed a self-balancing bicycle using reaction wheel architecture, IMU sensor fusion, and PID control. Future plans include depth perception and ML/RL-based control.",
-      "image": "/images/projects/bike.jpg",
-      "technologies": ["Arduino", "IMU", "PID Control", "3D Printing", "Jetson Nano", "OAK-D", "Machine Learning"],
-      "highlights": [
-        "Assembled mechanical + embedded system: 3D-printed frame, reaction wheel, DC motors, IMU, and controller",
-        "Implemented IMU fusion & real-time PID for roll stability, measuring latency and torque response",
-        "Future: Add depth perception via OAK-D + Jetson, and ML/RL-based control for improved navigation and recovery"
-      ]
-    },
-    {
       "id": "heat-exchanger",
-      "title": "Heat Exchanger System Design",
+      "title": "40% Pressure Drop Reduction via CFD-Guided Heat Exchanger Design",
       "period": "June 2025 – September 2025",
+      "outcomeSummary": "Designed and validated heat exchanger geometries through iterative ANSYS CFD simulations, achieving a 40% reduction in pressure drop without sacrificing thermal efficiency. Led the full R&D cycle from concept through physical test validation as intern lead at SwirlX.",
+      "myRole": null,
+      "category": "Thermal & Fluids",
       "description": "Led R&D for heat exchanger systems at SwirlX, using CFD simulations and physical testing to achieve significant performance improvements.",
       "image": "/images/projects/heat-exchanger.jpg",
-      "technologies": ["ANSYS", "CFD", "SolidWorks", "Thermal Analysis"],
+      "technologies": ["ANSYS", "CFD", "SolidWorks", "Thermal Analysis", "nTop"],
+      "github": null,
       "highlights": [
         "Designed heat exchanger systems validated via CFD (ANSYS) and physical tests",
         "Achieved 40% pressure drop improvement through iterative design optimization",
@@ -130,17 +124,39 @@
       ]
     },
     {
-      "id": "build-a-robot",
-      "title": "Build a Robot",
-      "period": "April 2023 – July 2023",
-      "description": "Group Project for UCSD MAE 3 Robot Competition",
-      "image": "/images/projects/build-a-robot.jpg",
-      "technologies": ["Fusion 360", "Design & Fabrication", "Data Analysis"],
+      "id": "self-balancing-bike",
+      "title": "Reaction-Wheel Self-Balancing Bicycle: Phase 1 Complete, ML Control in Progress",
+      "period": "October 2025 – Present",
+      "outcomeSummary": "Designed and fabricated a full reaction-wheel bicycle with IMU sensor fusion and real-time PID control achieving stable roll balancing across test runs. Phase 2 is underway — integrating OAK-D depth perception and ML/RL-based control via Jetson Nano for autonomous recovery.",
+      "myRole": null,
+      "category": "Robotics & Autonomy",
+      "description": "Developed a self-balancing bicycle using reaction wheel architecture, IMU sensor fusion, and PID control. Future plans include depth perception and ML/RL-based control.",
+      "image": "/images/projects/bike.jpg",
+      "technologies": ["Arduino", "IMU", "PID Control", "3D Printing", "Jetson Nano", "OAK-D", "Machine Learning"],
+      "github": null,
       "highlights": [
-        "Designed and manufactured a robot using aluminum, acrylic, and 3 RC motors, consisting of three components: a drivetrain, a lift mechanism, and a claw."
+        "Assembled mechanical + embedded system: 3D-printed frame, reaction wheel, DC motors, IMU, and controller",
+        "Implemented IMU fusion & real-time PID for roll stability, measuring latency and torque response",
+        "Future: Add depth perception via OAK-D + Jetson, and ML/RL-based control for improved navigation and recovery"
+      ]
+    },
+    {
+      "id": "wearable-biosensor",
+      "title": "Wearable Biosensor: 50% Sweat Extraction Gain via FEA & Microfluidics Simulation",
+      "period": "September 2024 – Present",
+      "outcomeSummary": "Performed structural FEA on flexible biosensor substrates in ANSYS to validate fabrication parameters, accelerating the design iteration cycle by 3 months. Modeled microfluidic channels in COMSOL to optimize sweat extraction efficiency by at least 50%; publication currently in development.",
+      "myRole": "Undergraduate Researcher – Simulation & Analysis",
+      "category": "Research & Biosensors",
+      "description": "Conducting FEA and microfluidic simulation work at UC San Diego's Wearable Biosensor Lab, with results supporting an in-progress publication on biomarker sensing.",
+      "image": "/images/projects/biosensor.jpg",
+      "technologies": ["ANSYS", "COMSOL", "FEA", "Microfluidics", "Biosensors"],
+      "github": null,
+      "highlights": [
+        "Performed FEA in Ansys on flexible biosensor substrates, validating experimental results and accelerating design by 3 months",
+        "Modeled microfluidic channels in COMSOL to optimize sweat extraction by at least 50%",
+        "Contributing to 1 publication in biomarker sensing (in development)"
       ]
     }
-    
   ],
   "skills": {
     "technical": [

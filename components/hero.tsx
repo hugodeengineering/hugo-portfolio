@@ -5,17 +5,24 @@ export function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-6 lg:px-12 pt-16 lg:pt-0">
       <div className="max-w-4xl">
-        <div className="space-y-6">
-          <p className="text-primary text-sm font-mono">Hi, my name is</p>
-          <h1 className="text-5xl lg:text-7xl font-bold text-foreground">Hugo de Mendoza</h1>
-          <h2 className="text-3xl lg:text-5xl font-bold text-muted-foreground">I am a mechanical engineering student.</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            I'm a mechanical engineer specializing in{" "}
-            <span className="text-primary">robotics</span>, <span className="text-primary">embedded systems</span>, and{" "}
-            <span className="text-primary">controls</span>. Currently pursuing my Master's in Mechanical Engineering and Robotics
-            at UC San Diego.
+        <div className="space-y-8">
+          <p className="text-primary text-sm font-mono tracking-widest uppercase">Hi, my name is</p>
+          <div className="space-y-3">
+            <h1 className="text-6xl lg:text-8xl font-bold text-foreground tracking-tight leading-none">
+              Hugo de Mendoza
+            </h1>
+            <h2 className="text-2xl lg:text-3xl font-semibold text-primary leading-snug">
+              Mechanical Engineer &amp; Robotics Researcher
+            </h2>
+          </div>
+          <p className="text-xl lg:text-2xl text-muted-foreground max-w-3xl leading-relaxed font-light">
+            I build systems where{" "}
+            <span className="text-foreground font-medium">physical hardware meets computational intelligence</span>
+            {" "}— from{" "}
+            <span className="text-primary font-medium">CFD-optimized thermal systems</span> to{" "}
+            <span className="text-primary font-medium">ROS2-driven autonomous robots</span>.
           </p>
-          <div className="flex gap-4 pt-4">
+          <div className="flex flex-wrap gap-4 pt-2">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
               <a href="#projects">View My Work</a>
             </Button>
@@ -24,7 +31,7 @@ export function Hero() {
             </Button>
           </div>
         </div>
-        <div className="mt-16 flex justify-center">
+        <div className="mt-20 flex justify-center">
           <a href="#about" className="text-muted-foreground hover:text-primary transition-colors animate-bounce">
             <ArrowDown className="h-6 w-6" />
           </a>
